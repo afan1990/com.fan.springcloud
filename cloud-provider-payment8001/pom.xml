@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-provider-hystrix-payment8001</artifactId>
+    <artifactId>cloud-provider-payment8001</artifactId>
 
     <dependencies>
         <dependency>
@@ -26,7 +26,8 @@
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
-            <artifactId>druid-spring-boot-starter</artifactId>
+            <!--<artifactId>druid-spring-boot-starter</artifactId>-->
+            <artifactId>druid</artifactId>
             <version>1.1.0</version>
         </dependency>
         <!--mysql-connter-java-->
